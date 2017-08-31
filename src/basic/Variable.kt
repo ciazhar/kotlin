@@ -5,39 +5,57 @@ package basic
  */
 
 fun main(args: Array<String>) {
-    //static declaration
+    /**
+     * Deklarasi static variabel (baca : bertipe data tidak dapat diubah)
+     */
     var angka : Int
     var kata : String
 
-    //static declaration with value
+    /**
+     * Deklarasi static variabel dengan value
+     */
     var angka2 : Int = 0
     var kata2 : String = "Hello"
 
-    //dynamic declaration
+    /**
+     * Deklarasi dynamic variabel (baca : tipe data dapat berubah)
+     */
     var angka3 = 0
     var kata3 = "Hello"
 
-    //final variable declaration (value tidak bisa dirubah)
+    /**
+     * Deklarasi immutable variable (baca : value tidak bisa diubah)
+     */
     val kata4 = "Hello"
 //    kata4 = "Ganti"
 
-    //Number Declaration (Pada dasarnya tipe data di kotlin adalah objek, berbeda dengan java)
+    /**
+     * Deklarasi tipe data angka
+     */
     val myInt = 10
     val myLong = 10L
     val myHex = 0x45
     val myBinary = 0x45
 
-    //casting
+    /**
+     * Casting (baca:mengubah tipe data)
+     */
     val myLongBaru = myInt.toLong() //kalo mau casting
 
-    //Word Declaraion
+    /**
+     * Deklarasi tipe data huruf
+     */
     val myChar = 'a'
     val myString = "String"
 
-    //using variable
+    /**
+     * Menggunakan variabel
+     */
     val newString = "Hello this is $myString "
 
-    //get spesific details from variable
+    /**
+     * Mendapatkan detail dari variabel. 
+     */
     val someNew = "The $myString length is ${myString.length}"
     
 }

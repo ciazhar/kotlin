@@ -6,33 +6,47 @@ import java.util.*
  * Created by ciazhar on 8/24/17.
  */
 
-//deklarasi class kosong
+/**
+ * Deklarasi class kosong
+ */
 class NamaClass
 
-//deklarasi class dengan property
+/**
+ * Deklarasi class dengan property
+ */
 class Costumer{
     var id : Int = 0
     var name : String = ""
 }
 
-//more short
+/**
+ * Deklarasi class dengan property short
+ */
 class CostumerShort(var id : Int,var name:String)
 
-//parameter bisa juga dibikin conditional
+/**
+ * Parameternya dapat juga dibuat kondisional
+ */
 class CostumerContional(var id : Int=0,var name:String)
 
-//nilai parameter bisa juga dirubah
+/**
+ * Value parameter bisa juga dirubah
+ */
 class CostumerInit(var id : Int=0,var name:String){
     init {
         name = name.decapitalize()
     }
 }
-//membuat second constructor
+/**
+ * Membuat second constructor
+ */
 class CostumerConst(var id : Int=0,var name:String){
     constructor(email : String) : this(0,"")
 }
 
-//custom getter and setter
+/**
+ * Custom getter and setter
+ */
 class Cstmr(var id: Int = 0, var name: String, val yearOfBirth: Int){
     val age : Int
         get() = Calendar.getInstance().get(Calendar.YEAR) - yearOfBirth

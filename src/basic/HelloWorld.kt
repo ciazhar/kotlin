@@ -5,13 +5,19 @@ package basic
  */
 
 fun main(args : Array<String>){
-    //print some string
+    /**
+     * Mencetak string sederhana
+     */
     print("Hello World")
 
-    //variable declaration
+    /**
+     * Deklarasi variabel
+     */
     val kata = "Halo"
 
-    //print value from variable
+    /**
+     * Mencetak value variabel
+     */
     print(kata)
 
 

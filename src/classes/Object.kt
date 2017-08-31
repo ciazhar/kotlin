@@ -4,6 +4,10 @@ package classes
  * Created by ciazhar on 8/30/17.
  */
 
+/**
+ * Object -> cara mudah membuat singleoton. Dapat dibuat tanpa instance dari class.
+ */
+
 object Object{
     val someProperty = "value"
 }

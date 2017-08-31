@@ -6,7 +6,9 @@ package basic
 
 
 fun main(args: Array<String>) {
-    ///Simple condition
+    /**
+     * Penggunaan Kondisi sederhana
+     */
     val kata = "Kata"
     if (kata != null){
         println("Tidak Null")
@@ -15,7 +17,9 @@ fun main(args: Array<String>) {
         println("Null")
     }
 
-    //Hasil Kondisi menjadi value variable
+    /**
+     * Memasukkan hasil kondisi ke sebuah variabel
+     */
     val kata2 = if (kata != null){
         "Tidak Null"
     }
@@ -24,16 +28,22 @@ fun main(args: Array<String>) {
     }
     println(kata2)
 
-    ///when seperti switch case
+    /**
+     * Penggunaan when. Seperti switch case
+     */
     when(kata){
-        is String -> print("Ini String")
+        is
+        String -> print("Ini String")
         "String" -> print("Value String")
         "Bukan String" -> {
+            println("Value bukan String") //multiple line
             print("Value bukan String")
         }
     }
 
-    //value when ke variable
+    /**
+     * Memasukkan hasil when ke variabel
+     */
     val whenValue = when(kata){
         is String -> print("Ini String")
         "String" -> print("Value String")

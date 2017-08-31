@@ -5,35 +5,47 @@ package basic
  */
 
 fun main(args: Array<String>) {
-    //basic for loop
+    /**
+     * Looping sederhana
+     */
     for (a in 1..4){
         print(a)
     }
 
-    //loop with variable
+    /**
+     * Looping dengan variavel
+     */
     val number = 1..4
     for (a in number){
         print(a)
     }
 
-    //decrease loop
+    /**
+     * Looping decrement
+     */
     for (a in 5 downTo 1){
         print(a)
     }
 
-    //decrease loop with 3--
+    /**
+     * Looping decrement 3--
+     */
     for (a in 5 downTo 1 step 3){
         print(a)
     }
 
-    ///String loop
+    /**
+     * Looping string
+     */
     val Kota = listOf("Kota", "KOta", "kt", "ta")
     val apa = listOf("Kota", 1, "dd", 'a')
     for (a in apa){
         print(a)
     }
 
-    ///loop with goto
+    /**
+     * Looping dengan goto
+     */
     asa@ for (a in 1..4){
         for (a in 1..4){
             break@asa

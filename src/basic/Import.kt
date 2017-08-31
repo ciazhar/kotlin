@@ -1,8 +1,13 @@
 package basic
 
-///import secara umum
+/**
+ * Import secara umum
+ */
 import basic.utils.fungsi
-///import lalu dihanti nama
+
+/**
+ * Import lalu diganti nama
+ */
 import basic.utils.fungsiLain as lain
 
 /**
